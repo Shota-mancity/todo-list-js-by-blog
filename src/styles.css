@@ -1,0 +1,88 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: teal;
+}
+
+.message-container {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 40px;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 40px;
+  opacity: 0.8;
+}
+
+.common-area {
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+input {
+  border: none;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  box-sizing: border-box;
+  background-color: rgba(80, 83, 82, 0.5);
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 50px;
+  margin: 10px 0;
+}
+
+.add-input {
+  margin-bottom: 40px;
+}
+
+.list-container {
+  padding-bottom: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.list-arrangement {
+  border-radius: 5px;
+  background-color: rgba(80, 83, 82, 0.5);
+  position: relative;
+  line-height: 70px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 50px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+i {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 165, 0, 0.8);
+}

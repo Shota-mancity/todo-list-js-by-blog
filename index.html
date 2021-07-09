@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="message-container">
+        <h1>Todo List</h1>
+        <h2>ADD TASK</h2>
+      </div>
+
+      <div class="input-container common-area">
+        <input class="add-input" id="add-task" placeholder="New Task" />
+        <input
+          class="add-input"
+          id="search-task"
+          placeholder="Search Keyword"
+        />
+      </div>
+
+      <div class="list-container common-area">
+        <!--追加タスクは初期状態でリスト、1クリックでinput、2クリックで文字の入力及び文字の更新-->
+        <ul id="task-list"></ul>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
